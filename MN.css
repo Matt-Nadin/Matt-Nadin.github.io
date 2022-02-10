@@ -1,0 +1,119 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: rgb(211, 104, 104);
+  }
+
+  .active {
+    background-color: #04AA6D;
+  }
+
+  #name {
+      font-family: Helvetica;
+      color: aliceblue;
+      font-style: italic;
+      font-size: 30px;
+      font-weight: bolder;
+      padding: 5px;
+  }
+
+  .right {
+      float:right;
+      font-size: 22px;
+      color: seashell;
+      font-weight: bold;
+  }
+
+  #self {
+      border-radius: 5%;
+      height: 300px;
+      width: auto;
+      float: right;
+      margin-right: 0.5%;
+  }
+
+  .flags {
+      /*height: 200px;
+      width: auto; */
+      border-radius: 5%;
+      filter: grayscale(0%);
+  }
+
+  .flags:hover {
+        filter: grayscale(0%);   
+  }
+
+  
+
+  .spacing {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+  }
+
+  .hidden {
+    display: none;
+}
+
+  #viewButton {
+      padding: 20px;
+      font-size: 20px;
+      font-family: Helvetica;
+      font-weight: bold;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 30%;
+  }
+
+ .container {
+     height: 100px;
+     width: 500px;
+     margin-left: auto;
+     margin-right: auto;
+     text-align: center;
+     border: black 1px solid;
+ }
+
+ main p {
+     padding: 2%;
+     font-size: 20px;
+     font-family: Helvetica;
+ }
+
+ main h2 {
+     font-family: Helvetica;
+     text-decoration: underline;
+ }
+
+.paragraph {
+     padding: 0%;
+ }
+
+ @media only screen and (max-width: 430px) {
+    #viewButton {
+        display: none;
+    }
+
+      
+ }
